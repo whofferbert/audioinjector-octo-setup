@@ -52,3 +52,5 @@ raspberrypi-bootloader
 raspberrypi-kernel
 raspberrypi-kernel-headers 
 ```
+
+If those packages are not in a 'hold' state, any `apt-get upgrade` or similar could update your kernel and leave you back in a non-working state.
