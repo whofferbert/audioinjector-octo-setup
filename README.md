@@ -1,4 +1,4 @@
-#AudioInjector Octo Setup Script
+# AudioInjector Octo Setup Script
 
 This is a simple bash script to help set up an audioinjector octo sound card.
 
@@ -8,6 +8,10 @@ To use it, simply download the script to your raspberry pi, and then execute it 
 curl -sLO https://raw.githubusercontent.com/whofferbert/audioinjector-octo-setup/master/octo-setup.sh
 sudo bash ./octo-setup.sh
 ```
+
+---
+
+# Kernel problems?
 
 In addition to that, there may be problems using this card with newer kernels (I'm still working to find out why.)
 
